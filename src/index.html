@@ -1,5 +1,291 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Monda&family=Cabin&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white font-sans">
+    <header class="bg-black bg-opacity-80 text-white fixed w-full z-10 transition-colors duration-300">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <!-- Logo -->
+            <a href="#home">
+                <img src="logo.jpg" alt="Logo" class="w-12 h-12 rounded-full hover:scale-110 transition-transform duration-300">
+            </a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+                    <li><a href="#about" class="hover:text-yellow-400">About Me</a></li>
+                    <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+                    <li><a href="#Certificates" class="hover:text-yellow-400">Certificates</a></li>
+                    <li><a href="#work" class="hover:text-yellow-400">Work</a></li>
+                    <li><a href="#education" class="hover:text-yellow-400">Education</a></li>
+                    <li><a href="#seminars" class="hover:text-yellow-400">Seminars</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero h-80 bg-center bg-cover flex items-center justify-center text-center text-white" style="background-image: url('banner2.png');">
+        <!-- <h1 class="text-4xl font-bold">Welcome to My Portfolio</h1> -->
+    </section>
+
+    <section id="home" class="py-16 text-center">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold">Where Amazing Begins...</h1>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-gradient-to-r from-black to-gray-900 text-white">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
+            <!-- Your Photo on the Left -->
+            <div class="relative">
+                <img src="profile.jpg" alt="Profile Picture" class="rounded-full w-72 h-72 hover:scale-110 transition-transform duration-300 border-4 border-yellow-500">
+                <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-black px-4 py-2 rounded-full shadow-lg text-sm">Romark Bayan</div>
+            </div>
+            
+            <!-- Text in the Center -->
+            <div class="text-center md:text-left flex-1 md:ml-12">
+                <h2 class="text-4xl font-extrabold mb-4 text-yellow-500">Creative Vision. Digital Mastery.</h2>
+                <p class="mb-6 text-lg">
+                    I’m a <span class="font-bold text-yellow-500">FullStack Developer</span> and <span class="font-bold text-yellow-500">UI/UX Designer</span> blending creativity and technology to craft solutions that inspire. From <span class="font-bold text-yellow-500">photography</span> to <span class="font-bold text-yellow-500">digital systems</span>, my passion lies in making ideas resonate and solutions stand out.
+                </p>
+                <p class="text-xl font-bold mb-4">Let's Build Something Amazing Together!</p>
+                <p>
+                    <span class="font-semibold">Contact Me:</span><br>
+                    Mobile: <span class="font-semibold">09195912107</span><br>
+                    Cabanatuan City
+                </p>
+            </div>
+            
+            <!-- Logo on the Right -->
+            <div class="relative">
+                <img src="logo.jpg" alt="Logo" class="w-72 h-72 rounded-full hover:scale-110 transition-transform duration-300 border-4 border-yellow-500">
+                <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-black px-4 py-2 rounded-full shadow-lg text-sm">My Brand Logo</div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="skills" class="py-16 bg-yellow-500 text-black">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">My Skill Set</h2>
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+                <!-- Camera -->
+                <div class="relative group">
+                    <img src="camera.png" alt="Camera" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Camera</p>
+                </div>
+                <!-- Lighting -->
+                <div class="relative group">
+                    <img src="lightinh.png" alt="Lighting" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Lighting</p>
+                </div>
+                <!-- Photoshop -->
+                <div class="relative group">
+                    <img src="ps.png" alt="Photoshop" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Photoshop</p>
+                </div>
+                <!-- Lightroom -->
+                <div class="relative group">
+                    <img src="lr.png" alt="Lightroom" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Lightroom</p>
+                </div>
+                <!-- DaVinci -->
+                <div class="relative group">
+                    <img src="davinci.png" alt="DaVinci" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">DaVinci</p>
+                </div>
+                <!-- Python -->
+                <div class="relative group">
+                    <img src="python.png" alt="Python" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Python</p>
+                </div>
+                <!-- Java -->
+                <div class="relative group">
+                    <img src="java.png" alt="Java" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Java</p>
+                </div>
+                <!-- JavaScript -->
+                <div class="relative group">
+                    <img src="js.png" alt="JavaScript" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">JavaScript</p>
+                </div>
+                <!-- HTML -->
+                <div class="relative group">
+                    <img src="html.png" alt="HTML" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">HTML</p>
+                </div>
+                <!-- CSS -->
+                <div class="relative group">
+                    <img src="css.png" alt="CSS" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">CSS</p>
+                </div>
+                <!-- PHP -->
+                <div class="relative group">
+                    <img src="php.png" alt="PHP" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">PHP</p>
+                </div>
+                <!-- SQL -->
+                <div class="relative group">
+                    <img src="sql.png" alt="SQL" class="w-24 h-24 mx-auto hover:scale-110 transition-transform duration-300">
+                    <p class="mt-2 text-black font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">SQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="Certificates" class="py-16 bg-gray-100 text-black">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Certificates</h2>
+            <ul class="list-none space-y-4">
+                <li class="hover:text-yellow-500 transition-colors duration-300"><span class="font-bold">2023</span> Maintaining Computer System and Network</li>
+                <li class="hover:text-yellow-500 transition-colors duration-300"><span class="font-bold">2023</span> Installing and Configuring Computer System</li>
+                <li class="hover:text-yellow-500 transition-colors duration-300"><span class="font-bold">2023</span> Setting up Computer Servers</li>
+                <li class="hover:text-yellow-500 transition-colors duration-300"><span class="font-bold">2023</span> Setting up Computer Network</li>
+                <li class="hover:text-yellow-500 transition-colors duration-300"><span class="font-bold">2023</span> Introduction to CSS</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="work" class="py-16 bg-gray-100 text-black">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Sample Work</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="https://drive.google.com/drive/folders/1GhCw5xj-pUB38kmYTXNU7zjmrXv6I-aK" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="Business Website.jpg" alt="Business Website Project" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Business Website</h3>
+                        <p class="text-gray-600">ITE 399</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1Wqh5cNu3FVT9YxZm01AM9-QpkaNIbIBD" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="Evaluator System.jpg" alt="Evaluator System Project" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Evaluator System</h3>
+                        <p class="text-gray-600">ITE 300</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1ZUpGINkyRZ_X2ZPfkxePBfKVgBcXa3WO" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="HEALTHCARE WEBSITE.jpg" alt="Healthcare Website Project" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Healthcare Website with Database</h3>
+                        <p class="text-gray-600">ITE 298</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1sZeW8q2jxYpVyKh4NTuoXmnxXhCRIqnK" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="student billing system.jpg" alt="Student Billing System Project" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Student Billing System</h3>
+                        <p class="text-gray-600">ITE 186</p>
+                    </div>
+                </a>
+                <a href="http://lumina.sale" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="Ecommerce.jpg" alt="Ecommerce Website" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Ecommerce Website</h3>
+                        <p class="text-gray-600">ITE 380 / ITE 400</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1vTkbmFxIvjxZOGTJi3ubv3hiJBk4k7oj" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="Android.jpg" alt="Android App" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Android App</h3>
+                        <p class="text-gray-600">ITE 393</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1T_5JdTgVF_EEpy_N_8NZMNitWw8Z2oD3" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="SE.jpg" alt="student evaluator" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Weather API/Student Evaluator</h3>
+                        <p class="text-gray-600">ITE 308</p>
+                    </div>
+                </a>
+                <!-- New Entry: Community Engagement Web App -->
+                <a href="https://drive.google.com/file/d/1bT3NagLd7aLHwdmNPiBoLeS9FO8rxJ0E/view?usp=sharing" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="web app.jpg" alt="Community Engagement Web App" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Community Engagement Web App</h3>
+                        <p class="text-gray-600">ITE 387</p>
+                    </div>
+                </a>
+                <!-- New Entry: Photo Studio Booking System -->
+                <a href="https://drive.google.com/file/d/1x2TvoACElCHr-ZHeK6RNxhUnlvM6LC_0/view?usp=sharing" class="block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:scale-105 duration-300">
+                    <img src="appointment booking system.jpg" alt="Photo Studio Booking System" class="w-full h-40 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-xl font-bold">Photo Studio Booking System</h3>
+                        <p class="text-gray-600">ITE 314 / ITE 307 / ITE 353</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="education" class="py-16 bg-white text-black">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Education</h2>
+            <div class="space-y-4">
+                <div class="bg-gray-200 p-4 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300">
+                    <h3 class="text-xl font-bold">Wesleyan University Philippines</h3>
+                    <p>College of Nursing</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300">
+                    <h3 class="text-xl font-bold">Northampton University</h3>
+                    <p>International Health Care and Nursing</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300">
+                    <h3 class="text-xl font-bold">Araullo University</h3>
+                    <p>Information Technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="seminars" class="py-16 bg-gray-100 text-black">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Seminars/Workshops Attended</h2>
+            <div class="space-y-4">
+                <div class="bg-gray-200 p-4 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300">
+                    <h3 class="text-xl font-bold">Tech Talk Ignite: Data Analytics</h3>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300">
+                    <h3 class="text-xl font-bold">Tech Talk Ignite: Swift Application</h3>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300">
+                    <h3 class="text-xl font-bold">Tech Talk Ignite: Artificial Intelligence</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-black text-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+            <form action="contact.php" method="post" class="max-w-lg mx-auto">
+                <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 mb-4 border rounded-lg text-black">
+                <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 mb-4 border rounded-lg text-black">
+                <textarea name="message" placeholder="Your Message" required class="w-full p-3 mb-4 border rounded-lg text-black"></textarea>
+                <button type="submit" class="w-full py-3 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-600 transition-colors duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-gray-800 text-white text-center">
+        <p>Connect with me:</p>
+        <a href="https://www.facebook.com" class="hover:text-yellow-500">Facebook</a> |
+        <a href="https://www.instagram.com" class="hover:text-yellow-500">Instagram</a> |
+        <a href="mailto:romark7bayan@gmail.com" class="hover:text-yellow-500">Gmail</a>
+        <p class="mt-4">&copy; Romark Bayan 2023</p>
+    </footer>
+</body>
+
+</html>
